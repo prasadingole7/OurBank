@@ -1,0 +1,40 @@
+h3{
+  margin-left: 400px;
+  font-style: italic;
+  margin-bottom: 40px;
+  margin-top: 20px;
+}
+span{
+  font-style: italic;
+  font-weight: bolder;
+
+}
+
+ul{
+  list-style: none;
+  margin-left: 500px;
+}
+li{
+  margin: 20px 0px;
+  /* margin-bottom: 0px; */
+}
+input{
+  border-radius: 10px;
+}
+button,select,option{
+  margin-left: 70px;
+  color: rgb(31, 61, 52);
+  background: rgb(53, 211, 211);
+  font-weight: bolder;
+  font-style: italic;
+}
+select{
+  margin-right: 10px;;
+  margin-left: 10px;;
+  /* width: 50px; */
+}
+small{
+  margin-left: 10px;
+  margin-bottom: 10px;
+  color: red;
+}

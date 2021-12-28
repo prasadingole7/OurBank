@@ -1,0 +1,26 @@
+
+<div class="wrapper fadeInDown">
+  <div id="formContent">
+    <!-- Tabs Titles -->
+
+    <!-- Icon -->
+    <div class="fadeIn first">
+      <!-- <img [src]="imgPath" id="icon" alt="User Icon" /> -->
+    </div>
+
+    <!-- Login Form -->
+    <form [formGroup]="login">
+      <input type="text" formControlName="adminname" id="adminname" class="fadeIn second" name="login" placeholder="adminname">
+      <input type="text" formControlName="password" id="password" class="vis fadeIn third" name="login" placeholder="password">
+      <input appHighlight type="submit" (click)="loginDetails()" class="fadeIn fourth" value="Log In">
+    </form>
+
+    <!-- Remind Passowrd -->
+    <div id="formFooter">
+      <a class="underlineHover"  href="#">Forgot Password?</a>
+      <a (click)="createAccount()" class="underlineHover">Create Account</a>
+    </div>
+
+  </div>
+</div>
+

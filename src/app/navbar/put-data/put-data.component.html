@@ -1,0 +1,89 @@
+<!-- <h3>Edit Book Details</h3>
+
+<form [formGroup]="editBook"  (ngSubmit)="onSubmit1()">
+<ul>
+  <li><input type="text" formControlName='id' name="id"  placeholder="Select Book by ID"></li>
+
+  <li><input type="text"  formControlName="name" name="name"  placeholder="name"></li>
+  <li><input type="text" formControlName="price" name="price"  placeholder="price"></li>
+  <li><input type="text" formControlName="publishDate" name="publishDate"  placeholder="publishDate"></li>
+  <li><button [disabled]="editBook.invalid" appHighlight class="btn btn-success">Edit</button></li>
+</ul>
+</form> -->
+
+
+<!-- <select #select name="cars" id="cars">
+  <option value="volvo">id</option>
+  <option value="saab">name</option>
+  <option value="mercedes">price</option>
+  <option value="audi">releaseDate</option>
+</select> -->
+
+<!-- (click)="putBook(data.value,name.value,price.value,releaseDate.value)" -->
+
+
+
+<h3>Edit User Details</h3>
+
+<form [formGroup]="addUserToBank"  (ngSubmit)="onSubmit1()">
+<ul>
+   <li>
+      <input
+        type="text"
+        name="uid"
+        formControlName="uid"
+        placeholder="Enter Book ID"
+      />
+    </li>
+    <li></li>
+    <li>
+      <input
+        type="text"
+        name="firstname"
+        formControlName="firstname"
+        placeholder="Enter FirstName"
+      />
+    </li>
+    <li>
+      <input
+        type="text"
+        name="lastname"
+        formControlName="lastname"
+        placeholder="Enter LastName"
+      />
+    </li>
+    <li>
+      <input
+        type="text"
+        name="aadharnumber"
+        formControlName="aadharnumber"
+        placeholder="Enter Aadhar Number"
+      />
+    </li>
+    <li>
+      <input
+        type="text"
+        name="mobilenumber"
+        formControlName="mobilenumber"
+        placeholder="Enter Mobile Number"
+      />
+    </li>
+    <li>
+      <input
+        type="text"
+        name="email"
+        formControlName="email"
+        placeholder="Enter Email Id"
+      />
+    </li>
+    <li>
+      <input
+        type="text"
+        name="address"
+        formControlName="address"
+        placeholder="Enter Address"
+      />
+    </li>
+  <li><button type="submit" appHighlight class="btn btn-success">Edit</button></li>
+</ul>
+</form>

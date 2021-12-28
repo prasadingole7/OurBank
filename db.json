@@ -1,0 +1,84 @@
+{
+  "books": [
+    {
+      "name": "The Monk who sold his ferrari",
+      "price": "259",
+      "publishDate": "09/08/2012",
+      "id": 1
+    },
+    {
+      "name": "A Subtel art of not giving fuck",
+      "price": "433.34",
+      "publishDate": "20/12/2016",
+      "id": 3
+    },
+    {
+      "id": "2",
+      "name": "The Monk who sold his ferrari",
+      "price": "239.00",
+      "publishDate": "21/04/2016"
+    },
+    {
+      "id": "4",
+      "name": "Harry Poter",
+      "price": "699.99",
+      "publishDate": "10/02/2002"
+    },
+    {
+      "id": "6",
+      "name": "Alchemist",
+      "price": "250",
+      "publishDate": "21/07/2016"
+    },
+    {
+      "id": "7",
+      "name": "Harry Poter 3",
+      "price": "239.00",
+      "publishDate": "10/02/2002"
+    },
+    {
+      "id": "8",
+      "name": "The Monk who sold his ferrari",
+      "price": "699.99",
+      "publishDate": "21/04/2016"
+    },
+    {
+      "id": "9",
+      "name": "The Monk who sold his ferrari",
+      "price": "259",
+      "publishDate": "10/02/2002"
+    }
+  ],
+  "users": [
+    {
+      "firstName": "prasad",
+      "lastName": "ingole",
+      "id": "prasad@winfo.com",
+      "password": "coder"
+    },
+    {
+      "firstName": "sagar",
+      "lastName": "Mustare",
+      "id": "sagar@company.com",
+      "password": "sagar@123"
+    },
+    {
+      "firstName": "Sai",
+      "lastName": "Kumar",
+      "id": "sai@winfo.com",
+      "password": "sai@123"
+    },
+    {
+      "firstName": "Akhila",
+      "lastName": "boorla",
+      "id": "akhila@winfo.com",
+      "password": "akhila123"
+    },
+    {
+      "firstName": "pavan",
+      "lastName": "xyz",
+      "id": "pavan@winfo.com",
+      "password": "pavan@1234"
+    }
+  ]
+}

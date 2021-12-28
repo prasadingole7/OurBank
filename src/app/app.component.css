@@ -1,0 +1,13 @@
+footer{
+  position:relative;
+  top: 78vh;
+  /* text-align: center; */
+    /* font-size: 25px; */
+    /* margin: 0px; */
+    /* padding: 10px; */
+    color: rgb(31, 61, 52);
+    background: rgb(53, 211, 211);
+    /* font-weight: 1000; */
+    font-style: italic;
+    height:min-content;
+}

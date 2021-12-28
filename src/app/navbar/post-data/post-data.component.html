@@ -1,0 +1,122 @@
+<!-- <h3>Enter Details of the book</h3>
+<form [formGroup]="addBook" (ngSubmit)='onSubmit()'>
+  <div *ngIf="addBook.valid && doCheck " class="alert alert-warning alert-dismissible fade show container w-75" role="alert">
+    <strong>Id Must be Greater than 0</strong> You should've enter another id.
+    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+      <span aria-hidden="true">&times;</span>
+    </button>
+  </div>
+  <ul>
+    <li>
+      <input
+        type="text"
+        name="id"
+        formControlName="id"
+        placeholder="Enter Book ID"
+      />
+    </li>
+    <li></li>
+    <li>
+      <input
+        type="text"
+        name="name"
+        formControlName="name"
+        placeholder="Enter book's name"
+      />
+    </li>
+    <li>
+      <input
+        type="text"
+        name="price"
+        formControlName="price"
+        placeholder="Enter price"
+      />
+    </li>
+    <li>
+      <input
+        type="text"
+        name="publishDate"
+        formControlName="publishDate"
+        placeholder="Enter publish date"
+      />
+    </li>
+    <li>
+      <button appHighlight type="submit" [disabled]="addBook.invalid" class="btn btn-success">Add</button>
+    </li>
+  </ul>
+</form> -->
+
+<!-- (click)="postBook(id.value,name.value,price.value,publishDate.value)" -->
+
+
+<h3>Register User</h3>
+<form [formGroup]="addUserToBank" (ngSubmit)='onSubmit()'>
+  <!-- <div *ngIf="addBook.valid && doCheck " class="alert alert-warning alert-dismissible fade show container w-75" role="alert">
+    <strong>Id Must be Greater than 0</strong> You should've enter another id.
+    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+      <span aria-hidden="true">&times;</span>
+    </button>
+  </div> -->
+  <ul>
+    <!-- <li>
+      <input
+        type="text"
+        name="id"
+        formControlName="id"
+        placeholder="Enter Book ID"
+      />
+    </li> -->
+    <li></li>
+    <li>
+      <input
+        type="text"
+        name="firstname"
+        formControlName="firstname"
+        placeholder="Enter FirstName"
+      />
+    </li>
+    <li>
+      <input
+        type="text"
+        name="lastname"
+        formControlName="lastname"
+        placeholder="Enter LastName"
+      />
+    </li>
+    <li>
+      <input
+        type="text"
+        name="aadharnumber"
+        formControlName="aadharnumber"
+        placeholder="Enter Aadhar Number"
+      />
+    </li>
+    <li>
+      <input
+        type="text"
+        name="mobilenumber"
+        formControlName="mobilenumber"
+        placeholder="Enter Mobile Number"
+      />
+    </li>
+    <li>
+      <input
+        type="text"
+        name="email"
+        formControlName="email"
+        placeholder="Enter Email Id"
+      />
+    </li>
+    <li>
+      <input
+        type="text"
+        name="address"
+        formControlName="address"
+        placeholder="Enter Address"
+      />
+    </li>
+    <li>
+      <button appHighlight type="submit" class="btn btn-success">Add</button>
+    </li>
+  </ul>
+</form>

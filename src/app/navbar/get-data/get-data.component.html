@@ -1,0 +1,35 @@
+<h3>List of Users</h3>
+<table class="table table-hover table-dark" >
+  <!-- <tr>
+    <th>Id</th>
+    <th>Name</th>
+    <th>Price</th>
+    <th>PublishDate</th>
+  </tr> -->
+  <!-- <tr *ngFor="let bookDetails of book">
+    <td><button (click)="id(bookDetails.id)">{{bookDetails.id}}</button> </td>
+    <td>{{bookDetails.name}} </td>
+    <td>{{bookDetails.price}} </td>
+    <td>{{bookDetails.publishDate}} </td>
+  </tr> -->
+
+  <tr>
+    <th>UId</th>
+    <th>FirstName</th>
+    <th>LastName</th>
+    <th>AadharNumber</th>
+    <th>Address</th>
+    <th>MobileNumber</th>
+    <th>Email</th>
+  </tr>
+  <tr *ngFor="let userDetails of bankUser">
+    <td><button (click)="id(userDetails.uid)">{{userDetails.uid}}</button> </td>
+    <td>{{userDetails.firstname}} </td>
+    <td>{{userDetails.lastname}} </td>
+    <td>{{userDetails.aadharnumber}} </td>
+    <td>{{userDetails.address}} </td>
+    <td>{{userDetails.mobilenumber}} </td>
+    <td>{{userDetails.email}} </td>
+  </tr>
+</table>
+

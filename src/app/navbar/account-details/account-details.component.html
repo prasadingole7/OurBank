@@ -1,0 +1,24 @@
+<h3>Enter ACCOUNT NUMBER</h3>
+<form [formGroup]="bankAccount" >
+<input type="text"  formControlName="accountNumber"  name="accountNumber" placeholder="Enter Bank Account Number">
+<button appHighlight type="button" class="btn btn-success"  (click)="viewBankAccountDetails()">AccountNumber</button>
+</form>
+
+
+<ul *ngIf="onClick" class="list-group height">
+  <li class="list-group-item list-group-item-info list-group-item-action" >ID =>  {{obj.baid}} </li>
+  <li class="list-group-item list-group-item-info list-group-item-action">accountnumber=> {{obj.accountnumber}} </li>
+  <li class="list-group-item list-group-item-info list-group-item-action">accounttype=> {{obj.accounttype}} </li>
+  <li class="list-group-item list-group-item-info list-group-item-action">balance=> {{obj.balance}} </li>
+  <li class="list-group-item list-group-item-info list-group-item-action">cifnumber=> {{obj.cifnumber}} </li>
+  <li class="list-group-item list-group-item-info list-group-item-action">ifsc=> {{obj.ifsc}} </li>
+</ul>
+
+
+ <!-- <div *ngIf="addBook.valid && doCheck " class="alert alert-warning alert-dismissible fade show container w-75" role="alert">
+    <strong>Id Must be Greater than 0</strong> You should've enter another id.
+    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+      <span aria-hidden="true">&times;</span>
+    </button>
+  </div> -->
+

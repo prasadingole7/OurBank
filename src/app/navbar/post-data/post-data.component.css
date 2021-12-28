@@ -1,0 +1,29 @@
+h3{
+  margin-left: 400px;
+  font-style: italic;
+  margin-bottom: 40px;
+  margin-top: 20px;
+}
+ul{
+  list-style: none;
+  margin-left: 500px;
+}
+li{
+  margin: 20px 0px;
+}
+input{
+  border-radius: 10px;
+}
+button{
+  margin-left: 70px;
+  color: rgb(31, 61, 52);
+  background: rgb(53, 211, 211);
+  font-weight: bolder;
+  font-style: italic;
+}
+.invalid.ng-invalid{
+  border: 3px solid red;
+}
+.valid.ng-valid{
+  border: 3px solid rgb(98, 0, 255);
+}

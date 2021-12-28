@@ -1,0 +1,36 @@
+button{
+  color: rgb(31, 61, 52);
+  background: rgb(53, 211, 211);
+  font-weight: bolder;
+  font-style: italic;
+  display: inline-block;
+  margin-left: 570px;
+
+}
+input{
+  display: block;
+  margin-left: 550px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+}
+h3{
+  margin-left: 400px;
+  font-style: italic;
+  margin-bottom: 40px;
+  margin-top: 20px;
+}
+.height{
+  margin-top: 50px;
+}
+li{
+  list-style: none;
+}
+ul{
+  position: relative;
+  display: inline-block;
+  left: 50px;
+  top:50px
+}
+
+
+
