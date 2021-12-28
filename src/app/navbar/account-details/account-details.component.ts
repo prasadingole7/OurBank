@@ -30,4 +30,5 @@ export class AccountDetailsComponent implements OnInit {
     console.log(data)});
     }
 
+
 }
