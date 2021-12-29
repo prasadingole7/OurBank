@@ -40,6 +40,7 @@ export class NewApi {
 
   /************Online Bank Api Calls**********/
   getAllUsers():Observable<any>{
+    console.log(yet working);
     return this.http.get("https://prasadingole7.github.io/ourbank/admin/users");
   }
   getBankUsers(id:string){
