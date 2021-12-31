@@ -40,24 +40,25 @@ export class NewApi {
 
   /************Online Bank Api Calls**********/
   getAllUsers():Observable<any>{
-    return this.http.get("http://localhost:8080/admin/users");
+
+    return this.http.get("https://prasadingole7.github.io/ourbank/admin/users");
   }
   getBankUsers(id:string){
-    return this.http.get("http://localhost:8080/admin/1/user/"+id+"?adminName=prasad&password=prasad@123");
+    return this.http.get("https://prasadingole7.github.io/ourbank/admin/1/user/"+id+"?adminName=prasad&password=prasad@123");
   }
   postBankUser(object:bankUsers): Observable<any>{
-    return this.http.post("http://localhost:8080/admin/1/registerUser", object,{responseType:'text' as 'json'});
+    return this.http.post("https://prasadingole7.github.io/ourbank/admin/1/registerUser", object,{responseType:'text' as 'json'});
   }
   deleteBankUser(id: number): Observable<any> {
-    return this.http.delete("http://localhost:8080/admin/1/deleteUser/"+id+"?adminName=prasad&password=prasad@123",{responseType:'text' as 'json'});
+    return this.http.delete("https://prasadingole7.github.io/ourbank/admin/1/deleteUser/"+id+"?adminName=prasad&password=prasad@123",{responseType:'text' as 'json'});
   }
   patchBankUser(id: number,object:bankUsers): Observable<any> {
-    return this.http.patch("http://localhost:8080/user/"+id+"/updateProfile",object,{responseType:'text' as 'json'});
+    return this.http.patch("https://prasadingole7.github.io/ourbank/user/"+id+"/updateProfile",object,{responseType:'text' as 'json'});
   }
   adminLogin(adminObj:admin){
-    return this.http.put("http://localhost:8080/adminLogin/",adminObj,{responseType:'text' as 'json'});
+    return this.http.put("https://prasadingole7.github.io/ourbank/adminLogin/",adminObj,{responseType:'text' as 'json'});
   }
   viewAccountDetails(accountNumber: number):Observable<any>{
-    return this.http.get("http://localhost:8080/admin/userAccountDetails/"+accountNumber);
+    return this.http.get("https://prasadingole7.github.io/ourbank/admin/userAccountDetails/"+accountNumber);
   }
 }
